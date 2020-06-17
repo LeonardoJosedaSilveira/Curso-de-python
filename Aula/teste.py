@@ -1,0 +1,1 @@
+print('Asomavale{}'.format('treta'))

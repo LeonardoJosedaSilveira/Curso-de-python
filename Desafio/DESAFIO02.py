@@ -1,0 +1,6 @@
+print('favor inserir os dados de nascimento')
+dia = input('Dia = ')
+mes = input('Mes = ')
+ano = input('Ano = ')
+print(' ')
+print('Voce nasceu no dia '+dia+' de '+mes+' de '+ano+' Correto?')

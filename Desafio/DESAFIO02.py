@@ -1,4 +1,5 @@
 print('favor inserir os dados de nascimento')
+print('favor inserir os dados de nascimento')
 dia = input('Dia = ')
 mes = input('Mes = ')
 ano = input('Ano = ')

@@ -1,4 +1,4 @@
-var = input('Digite algo: ')
+var = input('\033[2;30;41mDigite algo: \033[m')
 print('O tipo de entrada foi:{}'.format(type(var)))
 print('É alpha: {}'.format(var.isalpha()))
 print('É númérico: {}'.format(var.isnumeric()))

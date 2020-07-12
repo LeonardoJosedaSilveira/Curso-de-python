@@ -3,3 +3,4 @@ n2 = n1*2
 n3 = n1*3
 n4 = n1**(1/2)
 print('O dobro é {}, o triplo é {} e a raiz quadrada é {:.3f}'.format(n2, n3, n4))
+#print('\033[1;34;46mO dobro é {}, o triplo é {} e a raiz quadrada é {:.3f}\033[m'.format(n2, n3, n4))

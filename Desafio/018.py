@@ -1,5 +1,5 @@
 import math
-n0 = float(input('Digite o angulo: '))
+n0 = float(input('\033[1;30;41mDigite o angulo:\033[m '))
 rad = math.radians(n0)
 sen = math.sin(rad)
 cos = math.cos(rad)

@@ -1,6 +1,3 @@
-n1 = int(input('Digite o valor '))
-n2 = n1*2
-n3 = n1*3
-n4 = n1**(1/2)
-print('O dobro é {}, o triplo é {} e a raiz quadrada é {:.3f}'.format(n2, n3, n4))
-#print('\033[1;34;46mO dobro é {}, o triplo é {} e a raiz quadrada é {:.3f}\033[m'.format(n2, n3, n4))
+n = int(input('Digite um número: '))
+print('O dobro de {} vale {}.'.format(n, (n*2)))
+print('O Triplo de {} vale {}. \nA raiz quadrada de {} é igual a {:.2f}.'.format(n, (n*3), n, pow(n, (1/2))))

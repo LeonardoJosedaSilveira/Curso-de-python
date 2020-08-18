@@ -1,3 +1,6 @@
-n0 = float(input('Digite um numero '))
-print('A parte inteira do número é {:.0f}'.format(n0 // 1))
-print('\033[1;35;41meste é um teste de cores\033[m')
+'''from math import trunc
+num = float(input('Digite um valo: '))
+print('O Valor digitado foi {} e sua porção inteira é {}'.format(num, trunc(num)))'''
+
+num = float(input('Digite um valor: '))
+print('O valor digitado foi {} e a sua porção inteira é {}'.format(num, int(num)))

@@ -1,7 +1,8 @@
-import math
-n0 = float(input('\033[1;30;41mDigite o angulo:\033[m '))
-rad = math.radians(n0)
-sen = math.sin(rad)
-cos = math.cos(rad)
-tan = math.tan(rad)
-print('O angulo de {} tem o seno {:.2f}\nO angulo {} tem o cosseno {:.2f}\n O angulo de {} tem a tangente {:.2f}'.format(n0, sen, n0, cos, n0, tan))
+from math import radians, sin, cos, tan
+ângulo = float(input('Digite o ângulo que você deseja: '))
+seno = sin(radians(ângulo))
+print('O ângulo de {} tem o SENO  de {:.2f}'.format(ângulo, seno))
+cosseno = cos(radians(ângulo))
+print('O ângulo de {} tem o COSSENO de {:.2f}'.format(ângulo, cosseno))
+tangente = tan(radians(ângulo))
+print('O ângulo de {} tem a TANGENTE de {:.2f}'.format(ângulo, tangente))

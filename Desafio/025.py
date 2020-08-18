@@ -1,3 +1,2 @@
-nome = str(input('Digite um nome: '))
-silva = nome.split()
-print('O nome contem SILVA? {}'.format(silva.__contains__('SILVA')))
+nome = str(input('Qual é seu nome completo? ')).strip()
+print('Seu nome tem Silva? {}'.format('silva' in nome.lower()))

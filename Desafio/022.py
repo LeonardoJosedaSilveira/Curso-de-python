@@ -1,11 +1,6 @@
-# recebe o nome  coloca maiuscula e minuscula
-nome = str(input('Digite o nome completo: '))
-print(nome.upper())
-print((nome.lower()))
-# corta o nome, retira espaços, e conta carecteres
-parte = nome.strip().split()
-print(parte)
-print(len(''.join(parte)))
-# conta o primeiro nome
-primeiro = parte[0]
-print(len(primeiro))
+nome = str(input('Digite seu nome completo: '))
+print('Analisando seu nome...')
+print('Seu nome em maiúsculas é {}'.format(nome.upper()))
+print('seu nome em Minúsculas é {}'.format(nome.lower()))
+print('Seu nome tem ao todo {} letras'.format(len(nome) - nome.count(' ')))
+print('Seu primeiro nome tem {} letras'.format(nome.find(' ')))
